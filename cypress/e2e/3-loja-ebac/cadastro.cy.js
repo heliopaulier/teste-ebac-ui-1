@@ -2,10 +2,10 @@
 /// <reference types="cypress"/>
 import { faker } from '@faker-js/faker';
 
-describe('Funcionalidade Cadastro', () => {
+describe('Funcionalidade: Cadastro', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta/')
     });
 
    it('1 - Realizar o cadastro de um novo user - usando faker-js', () => {
